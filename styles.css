@@ -1,9 +1,13 @@
 body {
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
+
     background-color: #FAFAFA;
-    text-align: center;
+    display: flex;
+    flex-direction: column; /* Add this line */
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    
 }
 
 
@@ -12,4 +16,10 @@ body {
     background-size: cover;
     background-position: center;
     
+}
+
+p, h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 15;
+    font-family: 'Helvetica', 'Arial', sans-serif;
 }
