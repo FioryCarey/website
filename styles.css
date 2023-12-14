@@ -1,6 +1,6 @@
 body {
     padding: 0;
-    margin: 0;
+    margin: 0g;
 }
 .home {
     background-color: #FAFAFA;
@@ -14,7 +14,7 @@ body {
 }
 
 .img-banner {
-    max-width: 100%;
+    max-width: 800px;
 }
 
 
