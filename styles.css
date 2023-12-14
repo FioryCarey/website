@@ -1,18 +1,17 @@
 body {
-
     background-color: #FAFAFA;
     display: flex;
     flex-direction: column; /* Add this line */
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    font-family: 'Helvetica', 'Arial', sans-serif;    
+    font-family: 'Helvetica', 'Arial', sans-serif;   
+    text-align: center; 
 }
 
 .img-banner {
     max-width: 100%;
 }
-
 
 
 
