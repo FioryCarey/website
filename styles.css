@@ -13,12 +13,12 @@
 }
 
 .home h1 {
-    font-size: clamp(25px, 5vw + 1rem, 60px);
+    font-size: 2vw;
 
 }
 
 .home p {
-    font-size: clamp(10px, 2vw + 1rem, 25px);
+    font-size: 1vw;
 }
 
 .img-banner {
