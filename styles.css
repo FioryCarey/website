@@ -3,26 +3,18 @@ body {
     background-color: #FAFAFA;
     display: flex;
     flex-direction: column; /* Add this line */
-    min-height: 100vh;
     justify-content: center;
     align-items: center;
-    font-family: 'Helvetica', 'Arial', sans-serif;
-    
+    min-height: 100vh;
+    font-family: 'Helvetica', 'Arial', sans-serif;    
 }
-
 
 .img-banner {
-    width: 500;
-    background-size: cover;
-    background-position: center;
-    
+    max-width: 100%;
 }
 
-p, h1, h2, h3, h4, h5, h6 {
-    margin: 0;
-    padding: 15;
-    font-family: 'Helvetica', 'Arial', sans-serif;
-}
+
+
 
 .projectTitle {
     text-align:right; 
