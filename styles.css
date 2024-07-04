@@ -2,18 +2,19 @@
 
 
 body {
-    padding: 0;
-    margin: 0g;
+    background-color: #f2f2f2;
+    max-width: 960px;
+    min-width: 960px;
+    margin: 0 auto 0 auto;
+    margin-top: 2em;
     font-family: "Noto Sans", sans-serif;
 }
 .home {
-    background-color: #FAFAFA;
     display: flex;
     flex-direction: column; /* Add this line */
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
-    font-family: 'Helvetica', 'Arial', sans-serif;   
+    min-height: 100vh;  
     text-align: center; 
 }
 
